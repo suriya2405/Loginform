@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url(https://cutewallpaper.org/23/landscape-wallpaper-hd/1610627517.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.2); /* Adjusted for transparency */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    
+}
+
+.top h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    font-weight: 100;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-field i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #a2a0a0;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 30px;
+    border: 1px solid #5a5858;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.1); /* Adjusted for transparency */
+}
+
+.submit {
+    background-color: rgba(130, 2, 194, 0.8); /* Adjusted for transparency */
+    color: rgb(234, 91, 239);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: rgb(144, 6, 208); /* Adjusted for transparency */
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left label {
+    color: #0e0e0e;
+}
+
+.right label a {
+    color: #03131a;
+    text-decoration: none;
+}
+
+.right label a:hover {
+    text-decoration: underline;
+}
